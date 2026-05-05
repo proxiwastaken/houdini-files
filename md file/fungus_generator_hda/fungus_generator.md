@@ -62,7 +62,7 @@ Houdini Engine for Unreal/Unity.
 
 **How to run / use:**
 
-1. Import the '.hdalc' file into Unreal Engine
+1. Import the '.hdalc' file into Unreal Engine using Houdini Engine/Session Sync.
 2. Drag the HDA into the level and navigate to the Details Panel.
 3. Under "Houdini Inputs", change Input 1 to "Geometry Input" and select any Static Mesh.
 4. Adjust the parameters (Branching Threshold, Voxel Size, etc).
@@ -88,6 +88,7 @@ Houdini Engine for Unreal/Unity.
  
 Could specify exact point on mesh where fungus should generate from as secondary Unreal input.
 Could also output a gradient attribute from root to tips of tendrils, allowing artists to blend between multiple materials on the final output.
+Sending each frame to Unreal as a growth animation? Might need a custom script/plug-in?
 
 ---
 
